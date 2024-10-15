@@ -1,3 +1,4 @@
+'''9. Checks if a given number x exists in a sorted array arr using binary search. Analyze its time complexity using Big-O notation.'''
 def binarysearch(nums,key):
     nums.sort()
     print(nums)
@@ -16,3 +17,6 @@ def binarysearch(nums,key):
 nums=[3,4,6,-9,10,8,9,30]
 key=10
 print(binarysearch(nums,key))
+
+Output:[-9, 3, 4, 6, 8, 9, 10, 30]
+6
