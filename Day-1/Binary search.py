@@ -16,7 +16,7 @@ def binary_search(arr, key):
 
 # Test case
 arr = [3, 4, 6, -9, 10, 8, 9, 30]
-key = 100
+key = 10
 print(binary_search(arr, key))
 
 Output:[-9, 3, 4, 6, 8, 9, 10, 30]
