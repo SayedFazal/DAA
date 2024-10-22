@@ -19,5 +19,4 @@ arr = [3, 4, 6, -9, 10, 8, 9, 30]
 key = 10
 print(binary_search(arr, key))
 
-Output:[-9, 3, 4, 6, 8, 9, 10, 30]
-6
+Output:Element 10 is found at position 6
