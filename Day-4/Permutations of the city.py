@@ -1,6 +1,6 @@
 import itertools
 import math
-cities=[(0,0), (1,3), (4,3), (6,1)]
+cities=[(2, 4), (8, 1), (1, 7), (6, 3), (5, 9)]
 min_distance=float('inf')
 for perm in itertools.permutations(cities[1:]):
     current_path=[cities[0]] + list(perm)
@@ -10,10 +10,9 @@ for perm in itertools.permutations(cities[1:]):
     if total_distance<min_distance:
         min_distance=total_distance
         best_path=current_path
-
 print("Shortest path:", best_path)
 print("Minimum Distance:", min_distance)
 
 Output:
-Shortest path: [(0, 0), (1, 3), (4, 3), (6, 1)]
-Minimum Distance: 8.99070478491457
+Shortest path: [(2, 4), (1, 7), (5, 9), (6, 3), (8, 1)]
+Minimum Distance: 16.54560327021237
